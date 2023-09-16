@@ -6,7 +6,7 @@ export const ProfileDivWrap = styled.div`
   margin-bottom: 50px;
   width: 250px;
   flex-wrap: wrap;
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 4px;
   background-color: #e5e5e5;
 `;

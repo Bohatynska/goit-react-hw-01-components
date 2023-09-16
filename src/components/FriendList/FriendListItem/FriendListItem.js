@@ -17,6 +17,13 @@ export const FriendListStatus = styled.span`
   border: 1px solid black;
   display: block;
   margin-right: 20px;
+  background-color: ${props => {
+    if (props.status) {
+      return 'green';
+    } else {
+      return 'red';
+    }
+  }};
 `;
 export const FriendListAvatar = styled.img`
   margin-right: 25px;

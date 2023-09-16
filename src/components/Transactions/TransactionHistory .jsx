@@ -7,7 +7,7 @@ import {
   TransactionData,
 } from './TransactionHistory.styled';
 
-const TransactionHistory = ({ items }) => {
+export const TransactionHistory = ({ items }) => {
   return (
     <TransactionTable>
       <TransactionTableHead>
@@ -18,16 +18,18 @@ const TransactionHistory = ({ items }) => {
         </tr>
       </TransactionTableHead>
       <tbody>
-        <TransactionCell>
-          <TransactionData></TransactionData>
-          <TransactionData></TransactionData>
-          <TransactionData></TransactionData>
-        </TransactionCell>
-        <TransactionCell>
-          <TransactionData></TransactionData>
-          <TransactionData></TransactionData>
-          <TransactionData></TransactionData>
-        </TransactionCell>
+        {items.map(item => (
+          <TransactionCell key={item.id}>
+            <TransactionData>{item.type}</TransactionData>
+            <TransactionData>{item.amount}</TransactionData>
+            <TransactionData>{item.currency}</TransactionData>
+          </TransactionCell>
+          // <TransactionCell>
+          //   <TransactionData></TransactionData>
+          //   <TransactionData></TransactionData>
+          //   <TransactionData></TransactionData>
+          // </TransactionCell>
+        ))}
       </tbody>
     </TransactionTable>
   );

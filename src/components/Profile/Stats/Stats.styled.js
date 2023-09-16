@@ -7,7 +7,7 @@ export const StatsList = styled.ul`
   justify-content: center;
   width: 100%;
   border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-radius: 4px;
   background-color: #e5e5e5;
 `;
 export const StatsItem = styled.li`

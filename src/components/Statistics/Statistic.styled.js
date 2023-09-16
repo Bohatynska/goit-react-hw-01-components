@@ -9,13 +9,12 @@ export const StatisticsSection = styled.section`
   align-items: center;
   border: 2px solid grey;
   padding-top: 15px;
+  border-radius: 3px;
 `;
 
 export const StatisticsTitle = styled.h2`
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 15px;
-  padding: 0
-  
-  background-color: antiquewhite;
+  padding: 0;
 `;

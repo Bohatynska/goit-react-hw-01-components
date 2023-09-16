@@ -12,6 +12,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   background-color: lavenderblush;
 `;
 export const StatsLabel = styled.span`
