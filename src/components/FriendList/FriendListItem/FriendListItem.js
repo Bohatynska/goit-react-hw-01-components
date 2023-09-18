@@ -14,7 +14,7 @@ export const FriendListStatus = styled.span`
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid grey;
   display: block;
   margin-right: 20px;
   background-color: ${props => {

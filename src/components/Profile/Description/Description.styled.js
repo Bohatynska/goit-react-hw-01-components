@@ -5,7 +5,7 @@ export const DescriptionDivWrap = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #e5e5e5;
+  background-color: #ffe4e1;
 `;
 export const DescriptionAvatar = styled.img`
   background-color: white;

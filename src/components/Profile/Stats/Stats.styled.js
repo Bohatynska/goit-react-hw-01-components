@@ -17,6 +17,7 @@ export const StatsItem = styled.li`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffe4e1;
   &:not(:last-child) {
     border-right: 1px solid grey;
   }

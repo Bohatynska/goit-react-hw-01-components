@@ -8,5 +8,5 @@ export const ProfileDivWrap = styled.div`
   flex-wrap: wrap;
   border: 1px solid grey;
   border-radius: 4px;
-  background-color: #e5e5e5;
+  background-color: #ffe4e1;
 `;
