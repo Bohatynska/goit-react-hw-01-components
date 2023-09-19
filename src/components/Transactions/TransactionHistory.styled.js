@@ -28,14 +28,7 @@ export const TransactionType = styled.th`
   	padding: 5px;
    }
 `;
-export const TransactionTableBody = styled.tbody`
-  text-align: left;
-  border-left: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  padding: 10px 15px;
-  font-size: 14px;
-  vertical-align: top;
-`;
+
 export const TransactionData = styled.td`
   padding: 5px 10px;
   border: 1px solid #eee;

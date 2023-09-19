@@ -3,7 +3,6 @@ import {
   TransactionTableHead,
   TransactionCell,
   TransactionType,
-  TransactionTableBody,
   TransactionData,
 } from './TransactionHistory.styled';
 
