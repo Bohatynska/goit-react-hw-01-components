@@ -10,6 +10,13 @@ export const FriendItem = styled.li`
   display: flex;
   align-items: center;
 `;
+const SetStatusColor = props => {
+  if (props.status) {
+    return 'green';
+  } else {
+    return 'red';
+  }
+};
 export const FriendListStatus = styled.span`
   width: 20px;
   height: 20px;
@@ -17,13 +24,7 @@ export const FriendListStatus = styled.span`
   border: 1px solid grey;
   display: block;
   margin-right: 20px;
-  background-color: ${props => {
-    if (props.status) {
-      return 'green';
-    } else {
-      return 'red';
-    }
-  }};
+  background-color: ${SetStatusColor};
 `;
 export const FriendListAvatar = styled.img`
   margin-right: 25px;
